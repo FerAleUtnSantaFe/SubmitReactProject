@@ -316,7 +316,7 @@ function ProductList() {
               alt=""
             />
             <a
-              href="/shoppingreact/FinalProjectReact"
+              href="/shoppingreact"
               style={{ textDecoration: "none" }}
             >
               <div>
