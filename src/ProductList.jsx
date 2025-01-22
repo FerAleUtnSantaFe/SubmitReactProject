@@ -296,7 +296,7 @@ function ProductList() {
     setAddedToCart(updatedAddedToCart);
     setQuantity(cart.length);
   }, [cart]);
-  
+
   const handleAddToCart = (plant) => {
     dispatch(addItem(plant));
     setAddedToCart((prevState) => ({
@@ -316,7 +316,7 @@ function ProductList() {
               alt=""
             />
             <a
-              href="/Final-Project-ReactCourse"
+              href="/shoppingreact/FinalProjectReact"
               style={{ textDecoration: "none" }}
             >
               <div>
@@ -334,7 +334,6 @@ function ProductList() {
             </a>
           </div>
           <div>
-            {" "}
             <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
               <h1 className="cart">
                 <p className="cart_quantity_count">
